@@ -22,3 +22,10 @@ D:\USB_Data\個人研究\實用分析分類\ChatGPT_個人累積\ChatGPT_Codex_�
 ```text
 G:\我的雲端硬碟\Obsidian\2ndbrain\_班級工具工作模式\工作筆記.md
 ```
+
+## SessionEnd 安全網
+
+已安裝：`C:\Users\user\.claude\scripts\session-cleanup.ps1`。
+
+用途：忘記說「收工」就關閉 Claude Code 時，自動保存已追蹤檔案的變更並 push。
+

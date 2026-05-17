@@ -33,3 +33,11 @@
 - .claude/、.codex/、.env、金鑰、token 不可 commit。
 - Firebase Config 可以公開，但 Admin key、service account、private key 絕不可公開。
 - 每次新增 Firestore collection 都要同步更新 Security Rules。
+
+## SessionEnd 安全網
+- 已安裝 Windows PowerShell 版 SessionEnd hook。
+- 腳本：`C:\Users\user\.claude\scripts\session-cleanup.ps1`
+- 設定：`C:\Users\user\.claude\settings.json`
+- 只處理 `D:\USB_Data\個人研究\實用分析分類\ChatGPT_個人累積\ChatGPT_Codex_專案資料夾` 底下的 Git repo。
+- 只自動提交已追蹤檔案的修改，不會把新檔案或敏感檔亂加進 Git。
+
