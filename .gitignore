@@ -1,0 +1,24 @@
+﻿# 系統檔
+Desktop.ini
+Thumbs.db
+*.tmp
+~$*
+
+# 敏感資料
+.env
+*.key
+credentials.*
+serviceAccount*.json
+*private*.json
+
+# Claude / Codex 本地設定
+.claude/
+.codex/
+
+# Node.js
+node_modules/
+package-lock.json
+
+# Firebase
+.firebase/
+*.log
